@@ -12,15 +12,3 @@ type Driver struct {
 	IsVerified       int    `json:"is_verified,omitempty"`
 	RegistrationDate string `json:"registration_date"`
 }
-
-type DriversResponse struct {
-	Status  int    `json:"status"`
-	Message string `json:"message"`
-	Data    []User `json:"data,omitempty"`
-}
-
-type DriverResponse struct {
-	Status  int    `json:"status"`
-	Message string `json:"message"`
-	Data    User   `json:"data,omitempty"`
-}
