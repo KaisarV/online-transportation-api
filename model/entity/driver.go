@@ -1,4 +1,4 @@
-package models
+package entity
 
 type Driver struct {
 	Id               int    `json:"id"`
