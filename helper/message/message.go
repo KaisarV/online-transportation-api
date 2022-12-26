@@ -1,11 +1,12 @@
 package message
 
 const (
-	CODE_OK           = 200
-	CODE_CREATED      = 201
-	CODE_BAD_REQUEST  = 400
-	CODE_UNAUTHORIZED = 401
-	CODE_NOT_FOUND    = 401
+	CODE_OK                 = 200
+	CODE_CREATED            = 201
+	CODE_BAD_REQUEST        = 400
+	CODE_UNAUTHORIZED       = 401
+	CODE_NOT_FOUND          = 401
+	CODE_METHOD_NOT_ALLOWED = 401
 )
 
 // General error/desc message

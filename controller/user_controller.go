@@ -55,3 +55,9 @@ func GetAllUsers(w http.ResponseWriter, r *http.Request) {
 	SendResponse(w, response.Status, response)
 
 }
+
+func DeleteUser(w http.ResponseWriter, r *http.Request){
+	db := config.Connect()
+	defer db.Close()
+	
+}
