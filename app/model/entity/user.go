@@ -14,3 +14,7 @@ type User struct {
 	RegistrationDate string `json:"registration_date"`
 	IsVerified       int    `json:"is_verified,omitempty"`
 }
+
+func (User) TableName() string {
+	return "user"
+}
